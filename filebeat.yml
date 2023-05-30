@@ -1,0 +1,9 @@
+filebeat.inputs:
+  - type: log
+    paths:
+      - /home/hakkyahud/logs/*.log
+
+
+output.logstash:
+    hosts: ["localhost:5044"]
+    ttl: 30s
