@@ -1,4 +1,4 @@
-# ELK\n
+# ELK
 Installing ELK and pushing log. 
 
 Commands to remember:  
